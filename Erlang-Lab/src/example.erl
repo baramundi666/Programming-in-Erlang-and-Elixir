@@ -6,7 +6,7 @@
 %%% @end
 %%% Created : 28. Feb 2024 4:07 PM
 %%%-------------------------------------------------------------------
--module(lab1).
+-module(example).
 -author("mateusz-krol").
 
 %% API
@@ -14,4 +14,6 @@
 
 power(_, 0) -> 1;
 power(Base, N) -> Base*power(Base, N-1).
+
+
 
